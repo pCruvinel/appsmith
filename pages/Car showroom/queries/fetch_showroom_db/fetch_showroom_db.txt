@@ -1,0 +1,16 @@
+INSERT INTO orcamentos
+	(orcamentos, paciente, dt_solicitacao, dt_envio, status, dt_internacao, valor_total, valor_diarias, valor_procedimento, valor_hosp, valor_robotica, clinica, medico, especialidade, pacote) values
+	({{orca.text}},
+	 {{paciente.text.}},
+	 {{dt_solicitacao.text}},
+	 {{customer_email_input.text}},
+	 {{cust_phone_input.text}},
+	 {{car_type_input.selectedOptionValue}}, 
+	 {{model_name_select.selectedOptionValue}},
+	 {{car_model_type_input.selectedOptionValue}},
+	 {{car_chassis_no_input.text}},
+	 {{sp_input.value}},
+	 {{select_salesperson2.selectedOptionLabel}},
+	 {{Rating2.value}},
+	 {{select_salesperson2.selectedOptionValue}}
+	);
